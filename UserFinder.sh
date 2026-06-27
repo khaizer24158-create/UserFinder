@@ -23,13 +23,12 @@ if [[ -e $username.txt ]]; then
 printf "\e[1;92m[\e[0m\e[1;77m+\e[0m\e[1;92m] Saved:\e[0m\e[1;77m %s.txt\n" $username
 fi
 
-}
+}https://github.com/mishakorzik/UserFinder.github
 
 
 check_file() {
 if [[ -e $username.txt ]]; then
-printf "\e[1;92m[\e[0m\e[1;77mx\e[0m\e[1;92m] Removing previous file:\e[0m\e[1;77m %s.txt" $username
-printf "\n\n"
+printf "\e[1;92m[\e[0m\e[1;77mx\e[0m\e[1;92m] Removing previous file:\e[0m\e[1;77m %s.txt" $usernameprintf "\n\n"j
 rm -rf $username.txt
 else
 printf "\n"
